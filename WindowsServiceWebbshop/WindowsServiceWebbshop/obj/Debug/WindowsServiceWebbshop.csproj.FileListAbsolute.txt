@@ -1,0 +1,14 @@
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe.config
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.pdb
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\obj\Debug\WindowsServiceWebbshop.csprojAssemblyReference.cache
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\obj\Debug\WindowsServiceWebbshop.ProjectInstaller.resources
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\obj\Debug\WindowsServiceWebbshop.csproj.GenerateResource.cache
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\obj\Debug\WindowsServiceWebbshop.csproj.CoreCompileInputs.cache
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\obj\Debug\WindowsServiceWebbshop.exe
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\obj\Debug\WindowsServiceWebbshop.pdb
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\EntityFramework.dll
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\EntityFramework.xml
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\obj\Debug\WindowsServiceWebbshop.csproj.CopyComplete

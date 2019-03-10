@@ -1,0 +1,83 @@
+﻿Installerar sammansättningen C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbShop.exe.
+Berörda parametrar är:
+   logtoconsole = 
+   logfile = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbShop.InstallLog
+   assemblypath = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbShop.exe
+Avinstallerar sammansättningen C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe.
+Berörda parametrar är:
+   logtoconsole = 
+   logfile = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.InstallLog
+   assemblypath = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe
+Tar bort EventLog-källan Service1.
+Ett undantag uppstod under avinstallationen av installationsprogrammet System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Den begärda registeråtkomsten tillåts inte.
+Ett undantag uppstod under avinstallationen. Undantaget ignoreras och avinstallationen fortsätter. Men tillämpningsprogrammet avinstalleras eventuellt inte helt när avinstallationen slutförs.
+Installerar sammansättningen C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe.
+Berörda parametrar är:
+   logtoconsole = 
+   logfile = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.InstallLog
+   assemblypath = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe
+Installerar tjänsten Service1...
+Skapar EventLog-källan Service1 i loggen Application...
+Återställer sammansättningen C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe.
+Berörda parametrar är:
+   logtoconsole = 
+   logfile = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.InstallLog
+   assemblypath = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe
+Återställer händelseloggen för källan Service1 till det tidigare tillståndet.
+Avinstallerar sammansättningen C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe.
+Berörda parametrar är:
+   logtoconsole = 
+   logfile = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.InstallLog
+   assemblypath = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe
+Tar bort EventLog-källan Service1.
+Ett undantag uppstod under avinstallationen av installationsprogrammet System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Den begärda registeråtkomsten tillåts inte.
+Ett undantag uppstod under avinstallationen. Undantaget ignoreras och avinstallationen fortsätter. Men tillämpningsprogrammet avinstalleras eventuellt inte helt när avinstallationen slutförs.
+Installerar sammansättningen C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe.
+Berörda parametrar är:
+   logtoconsole = 
+   logfile = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.InstallLog
+   assemblypath = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe
+Installerar tjänsten Service1...
+Skapar EventLog-källan Service1 i loggen Application...
+Återställer sammansättningen C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe.
+Berörda parametrar är:
+   logtoconsole = 
+   logfile = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.InstallLog
+   assemblypath = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe
+Återställer händelseloggen för källan Service1 till det tidigare tillståndet.
+Installerar sammansättningen C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe.
+Berörda parametrar är:
+   logtoconsole = 
+   logfile = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.InstallLog
+   assemblypath = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe
+Installerar tjänsten Service1...
+Tjänsten Service1 har installerats.
+Skapar EventLog-källan Service1 i loggen Application...
+Utför sammansättningen C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe.
+Berörda parametrar är:
+   logtoconsole = 
+   logfile = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.InstallLog
+   assemblypath = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe
+Avinstallerar sammansättningen C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe.
+Berörda parametrar är:
+   logtoconsole = 
+   logfile = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.InstallLog
+   assemblypath = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe
+Tar bort EventLog-källan Service1.
+Tjänsten Service1 tas bort från systemet...
+Tjänsten Service1 togs bort från systemet.
+Installerar sammansättningen C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe.
+Berörda parametrar är:
+   logtoconsole = 
+   logfile = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.InstallLog
+   assemblypath = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe
+Installerar tjänsten Service1...
+Tjänsten Service1 har installerats.
+Skapar EventLog-källan Service1 i loggen Application...
+Utför sammansättningen C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe.
+Berörda parametrar är:
+   logtoconsole = 
+   logfile = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.InstallLog
+   assemblypath = C:\Users\patri\Source\Repos\WindowsServiceWebbshop\WindowsServiceWebbshop\bin\Debug\WindowsServiceWebbshop.exe
