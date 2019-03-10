@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>@ViewBag.Title - My ASP.NET Application</title>
+	<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+	<link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<script src="~/Scripts/modernizr-2.6.2.js"></script>
+	
+		<style>
+			body {
+				background-image: url("~/Images/supermariobak.jpg");
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center center;
+			}
+		</style>
+		
+</head>
+<body>
+	<style>
+		body {
+			background-image: url("Images/supermariobak.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+	</style>
+
+
+	<header>
+
+		<img src="~/Images/loga3.png" alt="HTML5 Icon" class="center">
+
+
+		<div class="nav">
+
+			<ul>
+				<li class="home">
+					@Html.ActionLink("Home", "Index", "Home")
+				</li>
+				<li class="tutorials">
+					@Html.ActionLink("Buy Games", "Index", "Product")
+
+				</li>
+				<li class="about">
+					@Html.ActionLink("About us", "Info", "Home")
+				</li>
+
+				<li class="contact">
+					@Html.ActionLink("Shopping cart", "Cart", "ShoppingCart")
+				</li>
+			</ul>
+		</div>
+	</header>
+
+
+
+
+
+
+	<div class="container body-content">
+		@RenderBody()
+		<hr />
+		<footer>
+			<p>&copy; @DateTime.Now.Year - Made by Patrik Söderberg Lindén</p>
+		</footer>
+	</div>
+
+	<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+	<script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

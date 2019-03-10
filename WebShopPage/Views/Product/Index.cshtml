@@ -1,0 +1,51 @@
+﻿@using WebShopPage.Models
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+</head>
+<body>
+
+
+	<table cellpadding="2" cellspacing="2" border="1">
+		<tr>
+		
+			<th>productname</th>
+			<th>price</th>
+			<th>picture</th>
+			<th>description</th>
+			<th>Buy</th>
+		</tr>
+		@foreach (Products p in ViewBag.listProducts)
+		{
+		<tr>
+			
+			<td>@p.productname</td>
+			<td>@p.price sek</td>
+			<td>
+			@{
+				//Conventerar bilderna i databasen till gif så att de kan visas på websidan. 
+				var base64 = Convert.ToBase64String(p.picture);
+				var imgsrc = string.Format("data: Image / gif;base64,{0}", base64);
+
+			}
+			<img src="@imgsrc" style="max-height:100px; max-width:100px" />
+				 </td>
+			<td>@p.description</td>
+			<td align="center">@Html.ActionLink("Order Now", "OrderNow", "ShoppingCart", new { id = p.id }, null)</td>
+		</tr>
+		}
+
+	</table>
+
+
+
+
+</body>
+</html>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+

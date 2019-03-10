@@ -1,0 +1,68 @@
+﻿
+
+@{
+	ViewBag.Title = "Cart";
+}
+
+<h2>Cart</h2>
+@using WebShopPage.Controllers
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+</head>
+<body>
+	<table cellpadding="2" cellspacing="2" border="1">
+		<tr>
+			<th>Option</th>
+			<th>Id</th>
+			<th>Name</th>
+			<th>Price</th>
+			<th>Picture</th>
+			<th>Quantity</th>
+			<th>Sub Total</th>
+
+		</tr>
+		@{double s = 0;}
+		@foreach (Item item in (List<Item>)Session["cart"])
+		{
+
+			s += item.Product.price * item.Quantity;
+
+			<tr>
+				<td>@Html.ActionLink("Delete", "Delete", "ShoppingCart", new { id = item.Product.id }, null)</td>
+				<td>@item.Product.id</td>
+				<td>@item.Product.productname</td>
+				<td>@item.Product.price sek</td>
+				<td>
+					//Conventerar bilderna i databasen till gif så att de kan visas på websidan.
+					@{
+						var base64 = Convert.ToBase64String(item.Product.picture);
+						var imgsrc = string.Format("data: Image / gif;base64,{0}", base64);
+
+					}
+					<img src="@imgsrc" style="max-height:100px; max-width:100px" />
+				</td>
+				<td>@item.Quantity</td>
+				<td>@( item.Product.price * item.Quantity) sek</td>
+
+			</tr>
+
+
+		}
+		<tr>
+			<td align="right" colspan="5">Sum</td>
+			<td>@s sek</td>
+		</tr>
+	</table>
+	<br />
+	@Html.ActionLink("Continue Shoppping", "Index", "Product")
+	<br />
+	<br />
+	@Html.ActionLink("Checkout", "Checkout", "ShoppingCart")
+
+
+</body>
+</html>
+
